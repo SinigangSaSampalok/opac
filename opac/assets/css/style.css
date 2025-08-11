@@ -1,0 +1,37 @@
+body {
+    padding-top: 56px;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.badge {
+    font-size: 0.9em;
+}
+
+.form-check-input {
+    margin-top: 0.2em;
+}
+
+/* Custom styles for the guest homepage */
+#guest-search {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar-collapse {
+        margin-top: 15px;
+    }
+}
